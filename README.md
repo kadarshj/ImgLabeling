@@ -43,7 +43,7 @@ Usage
 
     Output:
 
-    ![Screenshot](https://raw.githubusercontent.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-11-18.png)
+    ![Screenshot](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-11-18.png)
 
 Viewing Labeled Images
 
@@ -61,7 +61,7 @@ Interactive Labeling
 
     python label.py
 
-    ![Screenshot 1](https://raw.githubusercontent.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-07-10.png)
-    ![Screenshot 2](https://raw.githubusercontent.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-09-00.png)
-    ![Screenshot 3](https://raw.githubusercontent.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-09-38.png)
-    ![Screenshot 4](https://raw.githubusercontent.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-10-39.png)
+    ![Screenshot 1](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-07-10.png)
+    ![Screenshot 2](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-09-00.png)
+    ![Screenshot 3](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-09-38.png)
+    ![Screenshot 4](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-10-39.png)
