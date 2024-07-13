@@ -36,7 +36,7 @@ Usage
 
     Output:
 
-    ![alt text](<Screenshot/Screenshot_from_2024-07-13_23-11-18.png>)
+    ![alt text](https://github.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-11-18.png)
 
 Viewing Labeled Images
 
@@ -54,7 +54,7 @@ Interactive Labeling
 
     python label.py
 
-    ![alt text](<Screenshot/Screenshot_from_2024-07-13_23-07-10.png>)
-    ![alt text](<Screenshot/Screenshot_from_2024-07-13_23-09-00.png>)
-    ![alt text](<Screenshot/Screenshot_from_2024-07-13_23-09-38.png>)
-    ![alt text](<Screenshot/Screenshot_from_2024-07-13_23-10-39.png>)
+    ![alt text](https://github.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-07-10.png)
+    ![alt text](https://github.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-09-00.png)
+    ![alt text](https://github.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-09-38.png)
+    ![alt text](https://github.com/kadarshj/ImgLabeling/blob/main/Screenshot/Screenshot_from_2024-07-13_23-10-39.png)
