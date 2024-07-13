@@ -52,6 +52,9 @@ The script will display the raw image and its corresponding labeled images (if a
 
 Run the script to load a raw image and allow users to interactively create labeled images by assigning labels to specific regions within the raw image.
 
+Press key s to save labeled image by creating rectangle. After pressing key s please input the class name in command line.
+Press Esc key to exit from labeling image windows
+
 Modify `label.py` to specify your raw image path (`raw_image_path`) and labeled images directory (`labeled_images_dir`).
 
 ### Execute the script:
