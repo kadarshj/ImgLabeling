@@ -1,67 +1,64 @@
 # ImgLabeling
 
-# Image Labeling Tool
+## Image Labeling Tool
 
-Functionality
+### Functionality
 
-Displaying Labeled Images(python imageLabeling.py)
+**Displaying Labeled Images (`python imageLabeling.py`)**
 
 The script loads a raw image and its associated labeled images (if available) from specified directories. It then displays them in the same window. Each labeled image is shown alongside the raw image.
 
-Interactive Labeling (python label.py)
+**Interactive Labeling (`python label.py`)**
 
-the script label.py allow users to interactively create labeled images by assigning labels to specific regions within the raw image. This feature would involve GUI components for drawing or selecting regions and assigning labels. 
-using Requirements
+The script `label.py` allows users to interactively create labeled images by assigning labels to specific regions within the raw image. This feature involves GUI components for drawing or selecting regions and assigning labels.
 
-    Python 3.x
-    Matplotlib
-    NumPy
-    OpenCV (for image loading)
+### Requirements
 
-Usage
+- Python 3.x
+- Matplotlib
+- NumPy
+- OpenCV (for image loading)
 
-    Setup Environment
-        Setup 
-        Ensure Python and required libraries are installed.
-        
-        python3.8 -m venv myenv
-        source myenv/bin/activate
+### Usage
 
-        pip install -r requirements.txt
+1. **Setup Environment**
+    - Setup
+    - Ensure Python and required libraries are installed.
+    ```bash
+    python3.8 -m venv myenv
+    source myenv/bin/activate
+    pip install -r requirements.txt
+    sudo apt-get install python3-tk
+    ```
 
-        sudo apt-get install python3-tk
+2. **Run the Script to Load a Raw Image and Its Associated Labeled Images**
 
-    Run the Script to loads a raw image and its associated labeled images (if available) from specified directories.
+    Modify `imageLabeling.py` to specify your raw image path (`raw_image_path`) and labeled images directory (`labeled_images_dir`).
 
-        Modify imageLabeling.py to specify your raw image path (raw_image_path) and labeled images directory (labeled_images_dir).
-
-        Execute the script:
-
-        bash
-
+    Execute the script:
+    ```bash
     python imageLabeling.py
+    ```
 
-    Output:
+#### Output:
 
-    ![Screenshot](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-11-18.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-11-18.png?raw=true)
 
-Viewing Labeled Images
+**Viewing Labeled Images**
 
-    The script will display the raw image and its corresponding labeled images (if available) using Matplotlib.
+The script will display the raw image and its corresponding labeled images (if available) using Matplotlib.
 
-Interactive Labeling
+**Interactive Labeling**
 
-    Run the Script to loads a raw image allow users to interactively create labeled images by assigning labels to specific regions within the raw image.
+Run the script to load a raw image and allow users to interactively create labeled images by assigning labels to specific regions within the raw image.
 
-        Modify label.py to specify your raw image path (raw_image_path) and labeled images directory (labeled_images_dir).
+Modify `label.py` to specify your raw image path (`raw_image_path`) and labeled images directory (`labeled_images_dir`).
 
-        Execute the script:
+Execute the script:
+```bash
+python label.py
 
-        bash
-
-    python label.py
-
-    ![Screenshot 1](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-07-10.png?raw=true)
-    ![Screenshot 2](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-09-00.png?raw=true)
-    ![Screenshot 3](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-09-38.png?raw=true)
-    ![Screenshot 4](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-10-39.png?raw=true)
+![Screenshot 1](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-07-10.png?raw=true)
+![Screenshot 2](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-09-00.png?raw=true)
+![Screenshot 3](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-09-38.png?raw=true)
+![Screenshot 4](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-10-39.png?raw=true)
