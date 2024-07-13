@@ -54,9 +54,9 @@ Run the script to load a raw image and allow users to interactively create label
 
 Modify `label.py` to specify your raw image path (`raw_image_path`) and labeled images directory (`labeled_images_dir`).
 
-Execute the script:
-```bash
-python label.py
+### Execute the script:
+### ```bash
+### python label.py
 
 ![Screenshot 1](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-07-10.png?raw=true)
 ![Screenshot 2](https://raw.githubusercontent.com/kadarshj/ImgLabeling/main/Screenshot/Screenshot_from_2024-07-13_23-09-00.png?raw=true)
